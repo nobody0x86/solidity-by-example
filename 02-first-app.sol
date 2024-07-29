@@ -12,11 +12,15 @@ contract Counter {
     // Function to increment count by 1
     function inc() public {
         count += 1;
+        // ++count;
+        // count++;
     }
 
     // Function to decrement count by 1
     function dec() public {
         // This function will fail if count = 0
         count -= 1;
+        // --count;
+        // count--;
     }
 }
