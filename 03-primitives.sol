@@ -30,11 +30,11 @@ contract Primitives {
     int public max = type(int256).max;
 
     /*
-        In Solidity, the data type byte represent a sequence of bytes. 
+        In Solidity, the data type byte represent a sequence of bytes.
         Solidity presents two type of bytes types:
             - fixed-sized byte arrays
             - dynamically-sized byte arrays
-        The term bytes in Solidity represents a dynamic array of bytes. 
+        The term bytes in Solidity represents a dynamic array of bytes.
         It's a shorthand for byte[].
     */
     bytes1 b1 = 0xff;   // [11111111]
