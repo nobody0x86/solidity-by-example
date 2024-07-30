@@ -26,7 +26,6 @@ contract Primitives {
     // int is same as int256
     int public i = -256;
 
-    // minimum and maximum of int
     int public min = type(int256).min;
     int public max = type(int256).max;
 
