@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-contract Variables {
+contract Example {
     // State variables are stored on the blockchain
-    string public greet = "Hello World!";
+    string public hi = "Hello World!";
 
-    function doSomething() public view returns (int, uint256, address) {
+    function run() public view returns (int, uint256, address) {
         // Local variables are not saved to the blockchain
         int i = -256;
 

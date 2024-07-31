@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-// The compiler version must be greater than or equal to 0.8.24 and less than 0.9.0
+// Solidity compiler version must be greater than or equal to 0.8.24 and less than 0.9.0
 pragma solidity ^0.8.24;
 
-contract HelloWorld {
-    string public greet = "Hello World!";
+contract Example {
+    string public hi = "Hello World!";
 }
