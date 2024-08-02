@@ -14,15 +14,15 @@ contract Example {
             }
         }
 
-        uint256 m;
-        while (m < 10) {
-            m++;
+        uint256 j;
+        while (j < 10) {
+            j++;
         }
 
-        uint256 n;
+        uint256 k;
         do {
-            n++;
+            k++;
         } 
-        while (n < 10);
+        while (k < 10);
     }
 }
