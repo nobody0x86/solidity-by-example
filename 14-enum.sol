@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 contract Example {
-    // Enum representing shipping status
+    // Enum can be declared outside of a contract
     enum Status {
         Pending,
         Shipped,
