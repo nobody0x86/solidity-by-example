@@ -13,9 +13,9 @@ contract Example {
         return addrs[addr];
     }
 
-    function set(address addr, uint256 i) public {
+    function set(address addr, uint256 n) public {
         // Update the value at this address
-        addrs[addr] = i;
+        addrs[addr] = n;
     }
 
     function remove(address addr) public {

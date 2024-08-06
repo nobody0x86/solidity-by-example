@@ -8,7 +8,7 @@ contract Example {
         } else if (n < 20) {
             return 1;
         } else {
-            // ? is called the ternary operator
+            // The "?" is called the ternary operator
             return n < 30 ? 2 : 3;
         }
     }
