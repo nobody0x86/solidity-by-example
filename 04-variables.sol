@@ -5,9 +5,9 @@ contract Example {
     // State variables are stored on the blockchain
     string public hi = "Hello World!";
 
-    function run() public view returns (int, uint256, address) {
+    function run() public view returns (uint256, uint256, address) {
         // Local variables are not saved to the blockchain
-        int n = 1;
+        uint256 n = 1;
 
         // Global variables provide information about the blockchain
         uint256 timestamp = block.timestamp;
