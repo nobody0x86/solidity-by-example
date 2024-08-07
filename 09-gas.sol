@@ -14,7 +14,7 @@ contract Example {
             - gas limit is the max amount of gas you're willing to use for your transaction, set by you
             - block gas limit is the max amount of gas allowed in a block, set by the network
     */
-    uint256 public n = 0;
+    uint256 public n = 1;
 
     function run() public {
         while (true) {

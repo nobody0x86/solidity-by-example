@@ -7,11 +7,11 @@ contract Example {
 
     function run() public view returns (int, uint256, address) {
         // Local variables are not saved to the blockchain
-        int i = -256;
+        int n = 1;
 
         // Global variables provide information about the blockchain
         uint256 timestamp = block.timestamp;
         address sender = msg.sender;
-        return (i, timestamp, sender);
+        return (n, timestamp, sender);
     }
 }
