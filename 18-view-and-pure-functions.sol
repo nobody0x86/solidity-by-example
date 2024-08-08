@@ -2,10 +2,10 @@
 pragma solidity ^0.8.24;
 
 contract Example {
-    uint256 public n = 1;
+    uint256 public count;
 
     // Promise not to modify the state
-    function increase(uint256 count) public view returns (uint256) {
+    function increase(uint256 n) public view returns (uint256) {
         return count + n;
     }
 
