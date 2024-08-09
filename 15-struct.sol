@@ -13,7 +13,7 @@ contract Example {
     function create(string calldata text) public {
         /*
             Three ways to initialize a struct:
-                - calling it like a function
+                - call it like a function
                 - key value mapping
                 - initialize an empty struct and then update it
         */
